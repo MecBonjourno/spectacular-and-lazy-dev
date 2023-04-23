@@ -8,6 +8,7 @@ const ThreeColumnSection = () => {
 
   useEffect(() => {
     if (inView) {
+      // @ts-ignore
       sectionRef.current?.classList.add('animate')
     }
   }, [inView])
