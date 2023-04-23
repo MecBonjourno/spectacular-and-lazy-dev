@@ -8,11 +8,11 @@ export default function App({ Component, pageProps }: AppProps) {
   return (
     <>
       <Head>
-        <title>Patterns By MecBonjourno</title>
+        <title>Spectacular Lazy Developer</title>
       </Head>
       <Header />
       <Component {...pageProps} />
-      <Footer companyName="Design Patters" />
+      <Footer companyName="Spectacular Lazy Developer" />
     </>
   )
 }

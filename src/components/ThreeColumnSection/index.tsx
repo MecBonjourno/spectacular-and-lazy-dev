@@ -52,9 +52,9 @@ const ThreeColumnSection = () => {
       initial="hidden"
       animate={inView ? 'visible' : 'hidden'}
     >
-      <div className="flex justify-between w-3/4" ref={ref}>
+      <div className="flex justify-between w-3/4 gap-2" ref={ref}>
         <motion.div className="w-1/3" variants={columnVariants}>
-          <h2 className="text-3xl font-bold mb-4">Column 1</h2>
+          <h2 className="text-3xl font-bold mb-4">Benefits</h2>
           <p className="text-lg mb-4">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
             feugiat, mauris a sollicitudin rutrum, dolor est tristique tortor,
@@ -70,7 +70,7 @@ const ThreeColumnSection = () => {
           </p>
         </motion.div>
         <motion.div className="w-1/3" variants={columnVariants}>
-          <h2 className="text-3xl font-bold mb-4">Column 2</h2>
+          <h2 className="text-3xl font-bold mb-4">Challenges</h2>
           <p className="text-lg mb-4">
             Fusce vestibulum malesuada erat, a posuere mauris pulvinar ac. Sed
             tincidunt metus nec sapien interdum pharetra.
@@ -85,7 +85,7 @@ const ThreeColumnSection = () => {
           </p>
         </motion.div>
         <motion.div className="w-1/3" variants={columnVariants}>
-          <h2 className="text-3xl font-bold mb-4">Column 3</h2>
+          <h2 className="text-3xl font-bold mb-4">Testing</h2>
           <p className="text-lg mb-4">
             Morbi rutrum diam velit, vel tempor purus aliquam vel. Proin sit
             amet elit in nisl rhoncus varius.
